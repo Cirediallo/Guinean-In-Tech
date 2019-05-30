@@ -1,0 +1,37 @@
+{
+  "name": "Guinean-In-Tech",
+  "version": "1.0.0",
+  "description": "A welcome bot for Guinean In Tech Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cirediallo/Guinean-In-Tech.git"
+  },
+  "keywords": [
+    "Guinée",
+    "Guinea",
+    "Guinean in Tech",
+    "Tech in Guinea"
+  ],
+  "author": "DIALLO Mamadou Ciré",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cirediallo/Guinean-In-Tech/issues"
+  },
+  "homepage": "https://github.com/Cirediallo/Guinean-In-Tech#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "engines": {
+    "node": "10.x"
+  }
+}
