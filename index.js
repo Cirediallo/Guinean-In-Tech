@@ -1,4 +1,8 @@
 require('dotenv').config()
+
+//trying to solve port access problem
+require('http').createServer().listen(process.env.PORT || 8080);
+
 const Discord = require('discord.js')
 const client = new Discord.Client()
 
@@ -26,13 +30,3 @@ fs.readdir('./events/',(err,files) => {
 
 
 client.login(process.env.BOT_TOKEN)
-
-//trying to solve port access problem
-require('http').createServer().listen(process.env.PORT || 8080);
-/*
-let port = process.env.PORT;
-if (port == null || port == "") {
-  port = 8000;
-}
-app.listen(port);
-*/
