@@ -28,4 +28,10 @@ fs.readdir('./events/',(err,files) => {
 client.login(process.env.BOT_TOKEN)
 
 //trying to solve port access problem
-require('http').createServer().listen()
+//require('http').createServer().listen()
+
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 8000;
+}
+app.listen(port);
