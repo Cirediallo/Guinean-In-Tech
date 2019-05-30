@@ -26,3 +26,6 @@ fs.readdir('./events/',(err,files) => {
 
 
 client.login(process.env.BOT_TOKEN)
+
+//trying to solve port access problem
+require('http').createServer().listen()
