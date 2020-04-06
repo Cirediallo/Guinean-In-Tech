@@ -1,2 +1,2 @@
 # Guinean-In-Tech
-This bot is used to welcome new Guinean In Tech server member
+This bot is made for Guinean In Tech discord server for manage the discord server
